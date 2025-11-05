@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 import Usuario from "../model/usuario.js";
-import bcrypt from "bcryptjs";
+//import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 const JWT_SECRET = "clave_secreta_segura";
